@@ -9,9 +9,7 @@
   },
   "author": "",
   "dependencies": {
-    "@calblueprint/airlock": "^0.7.3",
-    "@types/node": "^14.14.10",
-    "airlock-server": "^0.2.16",
+    "airlock-server": "^0.2.3",
     "tslib": "^2.0.3"
   },
   "license": "ISC",
