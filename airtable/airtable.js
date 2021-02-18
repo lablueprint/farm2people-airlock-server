@@ -1,4 +1,4 @@
-/* eslint no-restricted-imports: 0 */
+/* eslint no-restricted-imports: 0  */
 /*
   THIS IS A GENERATED FILE
   Changes might be overwritten in the future, edit with caution!

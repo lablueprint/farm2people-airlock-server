@@ -114,4 +114,4 @@ module.exports.Columns = {
 		notificationType: {name:`notification type`, type:`select`},
 		quoteIds: {name:`quote`, type:`foreignKey-many`},
 	},
-};
+}; 
