@@ -13,7 +13,7 @@
 import Airtable from 'airtable';
 import { Columns } from './schema';
 
-const BASE_ID = process.env.REACT_APP_AIRTABLE_BASE_ID;
+const BASE_ID = process.env.REACT_APP_AIRTABLE_BASE_KEY;
 
 const API_KEY = process.env.REACT_APP_AIRTABLE_API_KEY;
 const ENDPOINT_URL = process.env.REACT_APP_AIRTABLE_ENDPOINT_URL;
