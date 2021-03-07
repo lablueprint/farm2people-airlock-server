@@ -13,4 +13,5 @@ new Airlock({
   airtablePasswordColumn: "password",
   allowedOrigins: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002'],
   port: 3000,
+  resolversDir: './resolvers/index.ts'
 });
