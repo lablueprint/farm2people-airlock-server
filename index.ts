@@ -11,6 +11,6 @@ new Airlock({
   airtableUserTableName: "Users",
   airtableUsernameColumn: "username",
   airtablePasswordColumn: "password",
-  allowedOrigins: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002'],
+  allowedOrigins: ['http://localhost:8000'],
   port: 3000,
 });
