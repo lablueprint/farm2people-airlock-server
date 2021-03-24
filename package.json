@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts"
+    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts",
+    "setup": "git clone https://github.com/lablueprint/farm2people-web-app.git",
+    "clean": "rimraf farm2people-web-app/build",
+    "predeploy": "npm ci && npm run clean && cd farm2people-web-app && git fetch --all && git reset --hard origin/master && npm ci && npm run build",
+    "deploy": "npm run predeploy"
   },
   "author": "",
   "dependencies": {
     "@types/node": "^14.14.10",
     "airlock-server": "^0.2.16",
+    "express": "^4.17.1",
     "tslib": "^2.0.3"
   },
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.6",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   }
